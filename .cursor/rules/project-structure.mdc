@@ -1,0 +1,28 @@
+---
+alwaysApply: true
+---
+
+# AI Prompt Library Project Structure
+
+This is an AI Prompt Library for capturing, storing, and generating AI prompts for Cursor and Raycast.
+
+## Project Organization
+
+- **Cursor Custom Modes**: Stored as `.txt` files in dedicated directories
+- **Cursor Project Rules**: Stored as `.mdc` files in the `.cursor/rules` directory
+- **Raycast AI Chat Presets**: Stored as `.json` files in dedicated directories
+- **Raycast AI Commands**: Stored as `.md` files in dedicated directories
+- **System-level Prompts**: Stored in [system-level-prompts/](mdc:system-level-prompts/) directory
+
+## File Types
+
+- `.txt` - Plain text prompts and custom modes
+- `.md` - Markdown documentation and Raycast AI Commands
+- `.mdc` - Cursor-specific rules and configurations
+- `.json` - Structured data for Raycast AI Chat Presets
+
+## Key Files
+
+- [README.md](mdc:README.md) - Main project documentation
+- [.gitignore](mdc:.gitignore) - Git ignore patterns
+- [system-level-prompts/](mdc:system-level-prompts/) - High-level system prompts

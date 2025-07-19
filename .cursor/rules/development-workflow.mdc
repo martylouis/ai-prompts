@@ -1,0 +1,45 @@
+---
+alwaysApply: true
+---
+
+# Development Workflow for AI Prompt Library
+
+## Adding New Prompts
+
+1. **Identify Category**: Determine if it's a Cursor Custom Mode, Project Rule, Raycast AI Chat Preset, or Raycast AI Command, or System Level Prompt
+2. **Choose File Type**: Use appropriate extension (.txt, .md, .mdc, .json)
+3. **Follow Standards**: Apply relevant formatting and structure guidelines
+4. **Test Functionality**: Verify the prompt works in target environment
+5. **Document**: Add usage examples and context
+
+## Quality Assurance
+
+- Review prompts for clarity and effectiveness
+- Test in actual Cursor/Raycast environments
+- Validate JSON syntax for Raycast presets
+- Ensure proper file organization and naming
+- Update documentation as needed
+
+## Version Control
+
+- Use descriptive commit messages
+- Group related changes together
+- Tag releases for major updates
+- Maintain changelog for significant changes
+- Backup important prompts before major changes
+
+## Collaboration
+
+- Share prompts with team members for feedback
+- Document prompt purposes and use cases
+- Establish review process for new prompts
+- Maintain consistent standards across team
+- Regular cleanup of outdated or unused prompts
+
+## Maintenance
+
+- Regularly review and update existing prompts
+- Remove deprecated or ineffective prompts
+- Update documentation and examples
+- Monitor for breaking changes in Cursor/Raycast APIs
+- Archive old versions when appropriate

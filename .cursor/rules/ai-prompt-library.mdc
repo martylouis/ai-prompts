@@ -1,0 +1,47 @@
+---
+alwaysApply: true
+---
+
+# AI Prompt Library - Core Guidelines
+
+## Project Purpose
+
+This is an AI Prompt Library for capturing, storing, and generating AI prompts for Cursor and Raycast. The project serves as a centralized repository for high-quality, tested, and well-documented AI prompts.
+
+## File Organization
+
+- **Cursor Custom Modes**: [cursor-modes/](mdc:cursor-modes/) - Specialized AI modes for specific tasks
+- **Cursor Project Rules**: [.cursor/rules/](mdc:.cursor/rules/) - Context-aware rules for different project types
+- **Raycast AI Chat Presets**: [raycast-presets/](mdc:raycast-presets/) - Pre-configured chat templates
+- **Raycast AI Commands**: [raycast-commands/](mdc:raycast-commands/) - Specialized commands for automation
+- **System-level Prompts**: [system-level-prompts/](mdc:system-level-prompts/) - High-level system design and planning
+
+## Quality Standards
+
+- **Clarity**: All prompts must be clear, specific, and actionable
+- **Testing**: Prompts should be tested in actual environments before inclusion
+- **Documentation**: Include usage examples, context, and expected outcomes
+- **Maintenance**: Regular review and updates to ensure relevance and effectiveness
+- **Consistency**: Follow established naming conventions and formatting standards
+
+## Development Principles
+
+- **Single Responsibility**: Each prompt should have a clear, focused purpose
+- **Reusability**: Design prompts to be adaptable across different contexts
+- **Accessibility**: Ensure prompts are understandable by target users
+- **Efficiency**: Optimize prompts for maximum effectiveness with minimal tokens
+- **Ethics**: Ensure prompts promote responsible and ethical AI usage
+
+## Collaboration Guidelines
+
+- **Version Control**: Use descriptive commit messages and proper branching
+- **Review Process**: Peer review for new prompts and significant changes
+- **Documentation**: Maintain up-to-date documentation for all prompts
+- **Feedback**: Encourage and incorporate user feedback for continuous improvement
+- **Standards**: Follow established formatting and organization standards
+
+## Key Resources
+
+- [README.md](mdc:README.md) - Main project documentation
+- [Cursor Documentation](https://docs.cursor.com/) - Official Cursor docs
+- [Raycast AI Documentation](https://manual.raycast.com/ai) - Official Raycast AI docs

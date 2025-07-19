@@ -1,0 +1,36 @@
+---
+globs: *.txt,*.md
+---
+
+# Prompt Formatting Standards
+
+## General Guidelines
+
+- Use clear, descriptive titles for all prompts
+- Include context and purpose at the beginning of each prompt
+- Structure prompts with clear sections using markdown headers
+- Use consistent formatting for parameters and placeholders
+- Include examples where appropriate
+
+## Cursor Custom Modes (.txt)
+
+- Start with a descriptive title and purpose
+- Include system instructions and constraints
+- Define expected input/output formats
+- Add usage examples and edge cases
+- Reference relevant documentation links
+
+## Raycast AI Commands (.md)
+
+- Use markdown formatting for better readability
+- Include command description and usage
+- Document all parameters and options
+- Provide example inputs and expected outputs
+- Add troubleshooting sections if needed
+
+## File Naming Convention
+
+- Use kebab-case for file names
+- Include descriptive keywords
+- Group related prompts in appropriate directories
+- Use consistent naming patterns within categories

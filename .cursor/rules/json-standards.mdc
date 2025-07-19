@@ -1,0 +1,35 @@
+---
+globs: *.json
+---
+
+# JSON Formatting Standards for Raycast AI Chat Presets
+
+## Structure Requirements
+
+- Use consistent indentation (2 spaces)
+- Include descriptive property names
+- Add comments in separate documentation files
+- Validate JSON syntax before committing
+
+## Raycast AI Chat Preset Format
+
+- Follow Raycast's official schema for AI Chat Presets
+- Include required fields: name, description, prompt
+- Add optional fields: icon, keywords, author
+- Use semantic versioning for preset versions
+- Include metadata for categorization and search
+
+## Best Practices
+
+- Keep JSON files focused on a single preset
+- Use descriptive file names that match the preset name
+- Include example usage in documentation
+- Test presets in Raycast before committing
+- Document any dependencies or prerequisites
+
+## Validation
+
+- Ensure all required fields are present
+- Validate against Raycast's schema when available
+- Test JSON syntax with linter tools
+- Verify preset functionality in Raycast environment
