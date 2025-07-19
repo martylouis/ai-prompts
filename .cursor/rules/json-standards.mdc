@@ -11,28 +11,32 @@ globs: *.json
 - Add comments in separate documentation files
 - Validate JSON syntax before committing
 
-## Raycast AI Chat Preset Format
+## Raycast AI Command Format
 
-- Follow Raycast's official schema for AI Chat Presets and Commands
-- Include required fields: name, description, prompt, model, icon, keywords, author
-- Add optional fields: version, metadata, examples, tags, categories, author, icon, keywords, author
-- Use semantic versioning for preset versions
-- Include metadata for categorization and search
-- Include examples for how to use the preset or command
-- Include tags for categorization and search
-- Include categories for categorization and search
+- Follow Raycast's official schema for AI Commands
+- JSON format should be an array of AI commands
+- Include required fields: title, prompt
+- Add optional fields: creativity, icon, model
+- Use kebab-case for icon names (e.g., AddPerson becomes add-person)
+- Valid creativity values: "none", "low", "medium", "high", "maximum"
+- Valid model values: "openai-gpt-3.5-turbo", "openai-gpt-4"
+- Model field requires GPT-4 when specified
 
 ## Best Practices
 
-- Keep JSON files focused on a single preset or command
-- Use descriptive file names that match the preset or command name
+- Keep JSON files focused on a single command or group of related commands
+- Use descriptive file names that match the command functionality
 - Include example usage in documentation
-- Test presets and commands in Raycast before committing
+- Test commands in Raycast before committing
 - Document any dependencies or prerequisites
+- Use clear, descriptive titles for commands
+- Write prompts that are specific and actionable
 
 ## Validation
 
-- Ensure all required fields are present
-- Validate against Raycast's schema when available
+- Ensure all required fields (title, prompt) are present
+- Validate creativity values against allowed options
+- Validate model values against allowed options
 - Test JSON syntax with linter tools
-- Verify preset functionality in Raycast environment
+- Verify command functionality in Raycast environment
+- Ensure JSON is formatted as an array of command objects
