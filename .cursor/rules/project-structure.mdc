@@ -8,14 +8,14 @@ This is an AI Prompt Library for capturing, storing, and generating AI prompts f
 
 ## Project Organization
 
-- **Cursor Custom Modes**: Stored as `.txt` files in [cursor-modes/](mdc:cursor-modes/) directory
+- **Cursor Custom Modes**: Stored as `.md` files in [cursor-modes/](mdc:cursor-modes/) directory
 - **Cursor Project Rules**: Stored as `.mdc` files in [cursor-project-rules](mdc:cursor-project-rules) directory
 - **Raycast Chat Presets**: Stored as `.json` files in [raycast-presets/](mdc:raycast-presets/) directory
 - **Raycast Commands**: Stored as `.json` files in [raycast-commands/](mdc:raycast-commands/) directory
 
 ## File Types
 
-- `.txt` - Plain text prompts and custom modes
+- `.md` - Markdown prompts and custom modes
 - `.json` - Structured data for Raycast AI Chat Presets and Commands
 - `.mdc` - Cursor-specific rules and configurations
 

@@ -12,7 +12,7 @@ globs: *.txt,*.md
 - Use consistent formatting for parameters and placeholders
 - Include examples where appropriate
 
-## Cursor Custom Modes and Project Rules (.txt)
+## Cursor Custom Modes and Project Rules (.md)
 
 - Start with a descriptive title and purpose
 - Include system instructions and constraints
