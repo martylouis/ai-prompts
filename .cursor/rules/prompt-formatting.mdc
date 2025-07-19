@@ -12,7 +12,7 @@ globs: *.txt,*.md
 - Use consistent formatting for parameters and placeholders
 - Include examples where appropriate
 
-## Cursor Custom Modes (.txt)
+## Cursor Custom Modes and Project Rules (.txt)
 
 - Start with a descriptive title and purpose
 - Include system instructions and constraints
@@ -20,13 +20,16 @@ globs: *.txt,*.md
 - Add usage examples and edge cases
 - Reference relevant documentation links
 
-## Raycast AI Commands (.md)
+## Raycast AI Chat Presets and Commands (.json)
 
-- Use markdown formatting for better readability
-- Include command description and usage
-- Document all parameters and options
-- Provide example inputs and expected outputs
-- Add troubleshooting sections if needed
+- Follow Raycast's official schema for AI Chat Presets and Commands
+- Include required fields: name, description, prompt, model, icon, keywords, author
+- Add optional fields: version, metadata, examples, tags, categories, author, icon, keywords, author
+- Use semantic versioning for preset versions
+- Include metadata for categorization and search
+- Include examples for how to use the preset or command
+- Include tags for categorization and search
+- Include categories for categorization and search
 
 ## File Naming Convention
 

@@ -10,11 +10,10 @@ This is an AI Prompt Library for capturing, storing, and generating AI prompts f
 
 ## File Organization
 
-- **Cursor Custom Modes**: [cursor-modes/](mdc:cursor-modes/) - Specialized AI modes for specific tasks
-- **Cursor Project Rules**: [.cursor/rules/](mdc:.cursor/rules/) - Context-aware rules for different project types
-- **Raycast AI Chat Presets**: [raycast-presets/](mdc:raycast-presets/) - Pre-configured chat templates
-- **Raycast AI Commands**: [raycast-commands/](mdc:raycast-commands/) - Specialized commands for automation
-- **System-level Prompts**: [system-level-prompts/](mdc:system-level-prompts/) - High-level system design and planning
+- **Cursor Custom Modes**: [cursor-modes/](mdc:cursor-modes/) - Specialized custom modes for specific Cursor tasks
+- **Cursor Project Rules**: [cursor-project-rules/](mdc:cursor-project-rules/) - Context-aware rules for Cursor project types
+- **Raycast AI Chat Presets**: [raycast-presets/](mdc:raycast-presets/) - Pre-configured chat templates for Raycast
+- **Raycast AI Commands**: [raycast-commands/](mdc:raycast-commands/) - Specialized commands for automation in Raycast AI Chat
 
 ## Quality Standards
 

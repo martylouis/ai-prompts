@@ -14,20 +14,20 @@ This repository serves as a centralized collection of AI prompts, custom modes, 
 ```
 ai-prompts/
 ├── .cursor/
-│   └── rules/           # Cursor Project Rules (.mdc files)
-├── system-level-prompts/ # High-level system prompts (.txt files)
-├── cursor-modes/        # Cursor Custom Modes (.txt files)
-├── raycast-presets/     # Raycast AI Chat Presets (.json files)
-├── raycast-commands/    # Raycast AI Commands (.md files)
-└── README.md
+│   └── rules/             # Local Cursor Project Rules (.mdc files)
+├── cursor-modes/          # Cursor Custom Modes (.txt files)
+├── cursor-project-rules/  # Cursor Project Rules (.mdc files)
+├── raycast-presets/       # Raycast AI Chat Presets (.json files)
+├── raycast-commands/      # Raycast AI Commands (.json files)
+├── README.md              # Main project documentation
+└── LICENSE.md             # Project license
 ```
 
 ## File Types
 
 - **`.txt`** - Plain text prompts and Cursor custom modes
-- **`.md`** - Markdown documentation and Raycast AI Commands
+- **`.json`** - Structured data for Raycast AI Chat Presets and Commands
 - **`.mdc`** - Cursor-specific project rules and configurations
-- **`.json`** - Structured data for Raycast AI Chat Presets
 
 ## Getting Started
 
@@ -49,11 +49,6 @@ ai-prompts/
 - **AI Chat Presets**: Pre-configured chat templates
 - **AI Commands**: Specialized commands for automation
 
-### System-Level
-
-- **Architecture Prompts**: High-level system design and planning
-- **Requirements Generators**: Product and feature requirement templates
-
 ## Contributing
 
 1. Follow the established file naming conventions
@@ -70,4 +65,9 @@ ai-prompts/
 
 ## License
 
-[Add your license information here]
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Ideas
+
+- [ ] Add an api to generate prompts
+- [ ] Bulid a Raycast Extension to generate prompts with these prompts
