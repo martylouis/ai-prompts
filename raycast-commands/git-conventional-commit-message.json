@@ -1,10 +1,10 @@
 [
   {
-    "creativity": "none",
-    "highlightEdits": false,
-    "icon": "brand-git",
-    "model": "openai-gpt-4.1-nano",
-    "prompt": "Act as a professional software developer. You've gone through series of code changes, outlined in the git diff here:\n{clipboard}\n\nGenerate a Conventional git commit message that follows this template:\n\"\"\"\n{type}({optional scope}): {commit message}\n\n{optional commit body}\n\n{optional footer(s)}\n\"\"\"\nThe aim is to deliver a clear and concise commit message that provides crucial information at a glance.\n\nThere are different commit types to consider, including `fix:` for bug fixes (correlating with PATCH in Semantic Versioning) and `feat:` for new features (correlating with MINOR in Semantic Versioning). Other types are permitted as well. You can also provide a scope in parentheses after the commit type to give more context. Only include an optional body and footer to give additional details and context. The optional body and footer is not always needed, and can be excluded if the changes are small. A `BREAKING CHANGE:` footer should only be added in-case of a breaking API change (aligning with MAJOR in Semantic Versioning). Only respond with the generated commit message. Do not wrap the response code or backticks.",
-    "title": "Git: Conventional Commit Message"
+    "creativity" : "none",
+    "highlightEdits" : false,
+    "icon" : "brand-git",
+    "model" : "anthropic-claude-sonnet-4",
+    "prompt" : "Act as a professional software developer. You've gone through series of code changes, outlined in the git diff here:\n{clipboard}\n\nGenerate a Conventional git commit message that follows this template:\n\"\"\"\n{type}({optional scope}): {commit message}\n\n{optional commit body}\n\n{optional footer(s)}\n\"\"\"\nThe aim is to deliver a clear and concise commit message that provides crucial information at a glance.\n\nThere are different commit types to consider, including `fix:` for bug fixes (correlating with PATCH in Semantic Versioning) and `feat:` for new features (correlating with MINOR in Semantic Versioning). Other types are permitted as well. You can also provide a scope in parentheses after the commit type to give more context. Only include an optional body and footer to give additional details and context. The optional body and footer is not always needed, and can be excluded if the changes are small. A `BREAKING CHANGE:` footer should only be added in-case of a breaking API change (aligning with MAJOR in Semantic Versioning). Only respond with the generated commit message. Do not wrap the response code or backticks.",
+    "title" : "Git: Conventional Commit Message"
   }
 ]
