@@ -4,22 +4,22 @@ alwaysApply: true
 
 # AI Prompt Library Project Structure
 
-This is an AI Prompt Library for capturing, storing, and generating AI prompts for Cursor and Raycast.
+This is an AI prompt library that serves as a centralized collection for Cursor and Raycast AI configurations. The main entry point is [README.md](mdc:README.md) which provides an overview of the project.
 
-## Project Organization
+## Directory Structure
 
-- **Cursor Custom Modes**: Stored as `.md` files in [cursor-modes/](mdc:cursor-modes/) directory
-- **Cursor Project Rules**: Stored as `.mdc` files in [cursor-project-rules](mdc:cursor-project-rules) directory
-- **Raycast Chat Presets**: Stored as `.json` files in [raycast-presets/](mdc:raycast-presets/) directory
-- **Raycast Commands**: Stored as `.json` files in [raycast-commands/](mdc:raycast-commands/) directory
+- **raycast-commands/**: Contains Raycast AI commands in both JSON and Markdown formats
+  - **json/**: Machine-readable command configurations
+  - **md/**: Human-readable documentation and examples
+- **raycast-presets/**: Pre-configured AI chat templates for Raycast
+- **system-instructions/**: Cursor-compatible system prompts and instructions
+- **.cursor/rules/**: Cursor-specific rules for this project
 
-## File Types
+## File Naming Conventions
 
-- `.md` - Markdown prompts and custom modes
-- `.json` - Structured data for Raycast AI Chat Presets and Commands
-- `.mdc` - Cursor-specific rules and configurations
+- Use kebab-case for all filenames
+- JSON files contain machine-readable configurations
+- MD files contain human-readable documentation
+- Maintain parallel structure between JSON and MD directories
 
-## Key Files
-
-- [README.md](mdc:README.md) - Main project documentation
-- [.gitignore](mdc:.gitignore) - Git ignore patterns
+---

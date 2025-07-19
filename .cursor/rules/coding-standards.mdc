@@ -1,0 +1,42 @@
+---
+globs: **/*.{js,ts,json,md}
+---
+
+# Coding Standards
+
+## General Principles
+
+- **Clarity Over Cleverness**: Write straightforward code that future developers can understand quickly
+- **Composition Over Inheritance**: Prefer composing small, focused functions/modules over complex inheritance hierarchies
+- **Single Responsibility**: Ensure each component does one thing well
+- **DRY (Don't Repeat Yourself)**: Eliminate duplication through thoughtful abstraction
+- **YAGNI (You Aren't Gonna Need It)**: Implement only what's necessary now, not speculative features
+
+## Naming Conventions
+
+- Use clear, descriptive names that reveal intent (e.g., `fetchUserData`, not `getData`)
+- Use kebab-case for filenames and directories
+- Use camelCase for variables and functions
+- Use PascalCase for classes and components
+- Use UPPER_SNAKE_CASE for constants
+
+## Function Design
+
+- Create small, pure functions with limited parameters and clear return values
+- Keep functions under 20 lines when possible
+- Use descriptive parameter names
+- Include JSDoc comments for complex functions
+
+## Error Handling
+
+- Implement explicit, informative error handling at appropriate levels
+- Use descriptive error messages
+- Handle edge cases gracefully
+- Validate inputs early in functions
+
+## Documentation
+
+- Write self-documenting code with clear variable and function names
+- Include JSDoc comments for public APIs
+- Keep documentation up-to-date with code changes
+- Use consistent formatting and style

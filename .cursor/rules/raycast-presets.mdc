@@ -1,0 +1,38 @@
+---
+globs: raycast-presets/**/*
+---
+
+# Raycast Presets Development
+
+## JSON Structure Requirements
+
+Presets must be valid JSON arrays containing preset objects with:
+
+- `name`: Human-readable preset name
+- `instructions`: The system prompt/instructions
+- `model`: AI model specification
+- `creativity`: Creativity level setting
+- `reasoning_effort`: Reasoning effort level
+- `tools`: Array of available tools
+- `web_search`: Boolean for web search capability
+
+## Content Standards
+
+- Instructions should follow the format: Identity → Instructions → Examples → Context
+- Include clear identity definition for the AI role
+- Provide specific, actionable instructions
+- Include relevant examples with `<example>` tags
+- Add context about the AI's expertise and capabilities
+
+## Naming Conventions
+
+- Use descriptive, kebab-case filenames
+- Names should clearly indicate the AI's specialization
+- Examples: `technical-writer.json`, `system-level-prompt-architect.json`
+
+## Quality Guidelines
+
+- Ensure instructions are clear and actionable
+- Test presets in actual Raycast environment
+- Maintain consistency with other presets in the library
+- Include appropriate tool configurations for the AI's role

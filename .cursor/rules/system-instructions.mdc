@@ -1,0 +1,43 @@
+---
+globs: system-instructions/**/*
+---
+
+# System Instructions Development
+
+## Content Structure
+
+All system instruction files must follow this format:
+
+1. **Identity**: Clear definition of the AI's role and expertise
+2. **Instructions**: Specific, actionable guidance for the AI
+3. **Examples**: Practical examples with `<example>` tags
+4. **Context**: Additional context about capabilities and use cases
+
+## Writing Standards
+
+- Use clear, professional language
+- Provide specific, actionable instructions
+- Include multiple examples covering different scenarios
+- Structure content with clear headings and sections
+- Use consistent formatting and terminology
+
+## Quality Guidelines
+
+- Test instructions in actual Cursor environment
+- Ensure instructions are comprehensive but concise
+- Include error handling and edge case considerations
+- Maintain consistency with other system instructions
+- Focus on practical, real-world usage scenarios
+
+## File Organization
+
+- Use descriptive, kebab-case filenames
+- Names should clearly indicate the AI's specialization
+- Examples: `code-reviewer.md`, `technical-writer.md`, `prd-generator.md`
+
+## Content Requirements
+
+- Minimum 50 lines of substantive content
+- Include at least 2-3 detailed examples
+- Provide clear context about when to use the instruction
+- Ensure instructions are self-contained and complete

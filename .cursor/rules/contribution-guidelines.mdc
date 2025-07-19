@@ -1,0 +1,42 @@
+---
+alwaysApply: true
+---
+
+# Contribution Guidelines
+
+## Before Contributing
+
+1. **Test Prompts**: Always test prompts in actual Cursor/Raycast environments before submitting
+2. **Follow Structure**: Adhere to established file naming conventions and directory structure
+3. **Documentation**: Include clear documentation and usage examples
+4. **Formatting**: Use appropriate file types and formatting standards
+5. **Update Docs**: Update relevant documentation when adding new content
+
+## Quality Standards
+
+- **Functionality**: Ensure prompts work correctly in their target environment
+- **Clarity**: Write clear, understandable instructions and examples
+- **Consistency**: Maintain consistency with existing prompts and documentation
+- **Completeness**: Provide comprehensive examples and context
+- **Testing**: Verify prompts produce expected results
+
+## File Organization
+
+- Place new Raycast commands in appropriate `raycast-commands/` subdirectories
+- Add corresponding documentation in the `md/` directory
+- Store new presets in `raycast-presets/` with descriptive names
+- Add system instructions to `system-instructions/` directory
+- Update [README.md](mdc:README.md) when adding new categories or significant changes
+
+## Review Process
+
+- Self-review all changes before submitting
+- Ensure JSON files are valid and properly formatted
+- Verify Markdown files follow established structure
+- Test functionality in target environments
+- Check for consistency with existing content
+
+## Future Ideas
+
+- [ ] Add an API to generate prompts
+- [ ] Build a Raycast Extension to generate prompts with these prompts
